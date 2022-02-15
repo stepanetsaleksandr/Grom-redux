@@ -1,9 +1,9 @@
 export const ADD_ITEM = "CART/ADD_ITEM";
 export const REMOVE_ITEM = "CART/REMOVE_ITEM";
 
-export const addProduct = (itemObj) => ({
+export const addProduct = (itemData) => ({
   type: ADD_ITEM,
-  itemObj,
+  itemData,
 });
 
 export const removeProduct = (itemId) => ({
